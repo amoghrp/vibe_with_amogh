@@ -16,7 +16,7 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(images/background.jpeg);
+  background-image: url(images/picture_3.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,10 +28,20 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 75px;
+  background-color: #262646; 
+  color: white;
+  padding: 10px 20px;
+  z-index: 1000; 
+  opacity: 100%;
 }
 
 .logo {
-  width: 140px;
+  border-radius: 100px;
 }
 
 nav ul li {
@@ -41,21 +51,24 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #000;
+  color: white;
   text-decoration: none;
+  padding: 4px 4px;
   font-size: 18px;
   position: relative;
+  /* background-color: #ffffff; */
+  border-radius: 3px;
 }
 
 nav ul li a::after {
   content: "";
   width: 0%;
-  height: 3px;
+  height: 4px;
   background: #ff004f;
   position: absolute;
   left: 0;
   bottom: -6px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 nav ul li a:hover::after {
@@ -73,7 +86,7 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-  color: #330d8b9f;
+  color: rgb(116, 18, 18);
 }
 
 /* --------about----------- */
@@ -154,18 +167,18 @@ display: block;
 }
 
 /* ---------------services */
-#services{
+#skills{
     padding: 30px 0;
 }
 
-.services-list{
+.skills-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap:40px;
     margin-top: 50px;
 }
 
-.services-list div{
+.skills-list div{
     background: #262626;
     padding: 40px;
     font-size: 13px;
@@ -174,18 +187,18 @@ display: block;
     transition: background 0.5s, transform 0.5s;
 }
 
-.services-list div i{
+.skills-list div i{
     font-size: 50px;
     margin-bottom: 20px;
 }
 
-.services-list div h2{
+.skills-list div h2{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
 }
 
-.services-list div a{
+.skills-list div a{
     text-decoration: none;
     color: white;
     font-size: 12px;
@@ -193,7 +206,7 @@ display: block;
     display: inline-block;
 }
 
-.services-list div:hover{
+.skills-list div:hover{
     background-color: #ff004f;
     transform: translateY(-10px);
 }
@@ -270,6 +283,7 @@ display: block;
 }
 
 .btn{
+  border-radius: 3px;
   display: block;
   margin: 50px auto;
   width: fit-content;
@@ -281,7 +295,6 @@ display: block;
 }
 .btn:hover{
   background: #ff004f;
-
 }
 /* -------------- contact ------------- */
 
@@ -319,10 +332,22 @@ display: block;
   transform: translateY(-5px);
 }
 
-.btn.btn2{
-  display: inline-block;
+.btn2{
+  border-radius: 3px;
+  background-color: #000000;
+  display: block;
+  font-size: 18px;
+  margin: 40px auto;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 14px 50px;
+  text-decoration: none;
+  color: white;
+  transition: background 0.5s;
+  cursor: pointer;
+}
+.btn2:hover{
   background: #ff004f;
-
 }
 
 .contact-right form{
@@ -341,12 +366,12 @@ form input, form textarea{
   font-size: 18px;
 }
 
-form .btn2{
+/* form .btn2{
   padding: 14px 60px;
   font-size: 18px;
   margin-top: 20px;
   cursor: pointer;
-}
+} */
 
 .copyright{
   width: 100%;
@@ -359,6 +384,7 @@ form .btn2{
 
 .copyright i{
   color: #ff004f;
+  font-size: 25px;
 }
 
 /* -------------css for small screen -------------- */
@@ -369,7 +395,7 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
   #header{
-    background-image: url(images/phone-background.png);
+    background-image: url(images/picture_1.jpeg);
   }
   .header-text{
     margin-top: 100%;
@@ -402,6 +428,10 @@ nav .fa-solid{
     position: absolute;
     top: 25px;
     left: 25px;
+    cursor: pointer;
+  }
+  
+  nav .fa-solid{
     cursor: pointer;
   }
 

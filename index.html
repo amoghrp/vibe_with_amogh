@@ -26,6 +26,7 @@
 
     <script src="script.js"></script>
   </head>
+
   <body>
     <div id="header">
       <div class="container">
@@ -34,7 +35,7 @@
           <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
@@ -42,11 +43,11 @@
           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
-          <p>Associate Software Engineer</p>
           <h1>
-            Hi, I'm <span>Amogh Patil</span> <br />
+            Hi, I'm <span>Amogh Patil</span> <br/>
             From India
           </h1>
+          <p>Associate Software Engineer, <span>DevOps</span> </p>
         </div>
       </div>
     </div>
@@ -62,44 +63,39 @@
           <div class="about-col-2">
             <h1 class="sub-title">About me</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              illum nulla ea aut eum vel tempore quae maxime est expedita
-              nesciunt optio ab, suscipit explicabo deleniti doloribus nihil
-              voluptatem. Delectus incidunt consequuntur, adipisci a cupiditate
-              quis aperiam tempore, magni consequatur, repellendus itaque
-              maiores animi minus!
+              "Hi, I’m Amogh, a technology enthusiast and associate software engineer with a degree in Computer Science. Currently focused on DevOps, I leverage Azure DevOps to streamline workflows and enhance software delivery. As a full-stack web developer, I have experience and working knowledge in .NET and Angular, building dynamic, user-centric applications. A continuous learner and competitive programmer, I thrive on solving complex challenges and advancing my knowledge in cutting-edge technologies."
             </p>
             <div class="tab-titles">
-              <p class="tab-links active-link" onclick="opentab('skills')">
-                Skills
+              <p class="tab-links active-link" onclick="opentab('services')">
+                Services
               </p>
               <p class="tab-links" onclick="opentab('experience')">
                 Experience
               </p>
               <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
-            <div class="tab-contents active-tab" id="skills">
+            <div class="tab-contents active-tab" id="services">
               <ul>
+                <li><span>Devops</span> <i class="fa-solid fa-infinity"></i> <br />Devops Services</li>
                 <li>
-                  <span>UI/Ux</span><br />
-                  Designing Web/App Interfaces
+                  <span>Backend Development</span> <i class="fa-solid fa-computer"></i> <br />
+                  Backend App Development
                 </li>
                 <li>
-                  <span>Web Development</span><br />
-                  Full Stack Web Development
+                  <span>Front-End </span> <i class="fa-brands fa-angular"></i> <br />
+                  Front-End App Development
                 </li>
-                <li><span>Devops</span><br />Devops Services</li>
               </ul>
             </div>
             <div class="tab-contents" id="experience">
               <ul>
                 <li>
-                  <span>June 2024 - Current</span> Associate Software Engineer,
-                  Eurofins IT Solutions India Pvt. Ltd Bengaluru
+                  <span>June 2024 - Current</span> Associate Software Engineer DEVOPS,
+                  Eurofins IT Solutions India Pvt. Ltd Bengaluru.
                 </li>
                 <li>
-                  <span>Feb 2024 - May 2024</span> Apprenticeship(Internship)
-                  Eurofins IT Solutions India Pvt. Ltd, Bengaluru
+                  <span>Feb 2024 - May 2024</span> Internship (Full Stack)
+                  Eurofins IT Solutions India Pvt. Ltd, Bengaluru.
                 </li>
               </ul>
             </div>
@@ -107,15 +103,15 @@
               <ul>
                 <li>
                   <span>2020 - 2024</span> Bachelor of Engineering (Computer
-                  Science), New Horizon College of Engineering, Bengaluru
+                  Science), New Horizon College of Engineering, Bengaluru.
                 </li>
                 <li>
                   <span>2018 - 2020</span> PUC Science (PCMB), Aryabhatta
-                  Science PU College, Dharwad Karnataka
+                  Science PU College, Dharwad Karnataka.
                 </li>
                 <li>
-                  <span>2017 - 2018</span> Class 10, S S K Patil English Medium
-                  School, Sankeshwar Karnataka
+                  <span>2017 - 2018</span> Class 10, S S K Patil English Medium CBSE
+                  School, Sankeshwar Karnataka.
                 </li>
               </ul>
             </div>
@@ -125,10 +121,10 @@
     </div>
 
     <!-- ---------------services--------------- -->
-    <div id="services">
+    <div id="skills">
       <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skills-list">
           <div>
             <i class="fa-solid fa-code"></i>
             <h2>Web Development</h2>
@@ -236,7 +232,7 @@
               <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
               <a href="#"><i class="fa-brands fa-github"></i></a>
             </div>
-            <a href="images/my_cv.pdf" download class="btn btn2"
+            <a href="images/my_cv.pdf" download class="btn"
               >Download Resume</a
             >
           </div>
@@ -246,7 +242,7 @@
               <input type="email" name="email" id="e_id" placeholder="Your Email" required>
               <input type="text" id="subject" name="subject" placeholder="Your Subject">
               <textarea name="Message" id="message" rows="6" placeholder="Your message"></textarea>
-              <button type="submit" class="btn btn2">Submit</button>
+              <button type="submit" class="btn2">Submit</button>
             </form>
           </div>
         </div>
