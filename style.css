@@ -10,16 +10,17 @@ html{
 }
 
 body {
-  background: #080808;
-  color: #fff;
+  background: #000000;
+  color: #ffffff;
 }
+
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(images/picture_3.png);
+  background-image: url(images/background-pic.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .container {
   padding: 10px 10%;
@@ -35,7 +36,7 @@ nav {
   left: 0;
   width: 100%; 
   height: 75px;
-  background-color: #262646; 
+  background-color: #262626; 
   color: white;
   padding: 10px 20px;
   z-index: 1000; 
@@ -74,7 +75,7 @@ nav ul li a::after {
 }
 
 nav ul li a:hover::after {
-  width: 100%;
+  width: 90%;
 }
 
 .header-text {
@@ -93,7 +94,7 @@ nav ul li a:hover::after {
 
 /* --------about----------- */
 #about {
-  padding: 80px 0;
+  padding: 75px 0 0 0;
   color: white;
 }
 .row {
@@ -146,7 +147,7 @@ nav ul li a:hover::after {
 }
 
 .tab-links.active-link::after {
-  width: 50%;
+  width: 75%;
 }
 .tab-contents ul li{
   list-style: none;
@@ -170,7 +171,8 @@ display: block;
 
 /* ---------------services */
 #skills{
-    padding: 30px 0;
+    padding: 75px 0 0 0;
+    color: white;
 }
 
 .skills-list{
@@ -217,7 +219,7 @@ display: block;
 /* -----------portfolio---------- */
 
 #portfolio{
-    padding: 50px 0;
+    padding: 75px 0 0 0;
 }
 
 .work-list{
@@ -298,7 +300,11 @@ display: block;
 .btn:hover{
   background: #ff004f;
 }
-/* -------------- contact ------------- */
+/* -------------- contact ---------------------------- */
+
+#contact{
+  padding: 75px 0 0 0;
+}
 
 .contact-left{
   flex-basis: 35%;
