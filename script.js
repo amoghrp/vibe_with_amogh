@@ -1,3 +1,13 @@
+// --------------- init function from header ---------
+
+      (function () {
+        emailjs.init({
+          publicKey: "fZWHlLer1__dI8TTk",
+        });
+      })();
+      
+      // ------------------ send mail --------------
+
 function sendMail(event) {
   // Prevent the form from refreshing the page
   event.preventDefault();

@@ -24,13 +24,6 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
     ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init({
-          publicKey: "fZWHlLer1__dI8TTk",
-        });
-      })();
-    </script>
 
     <script src="script.js"></script>
 
@@ -114,7 +107,8 @@
                 </li>
               </ul>
             </div>
-            <div class="tab-contents" id="experience">
+            <div class="tab-contents hover-container" id="experience">
+              <span class="tooltip-text">I am currently working at Eurofins, where I am learning a lot and gaining valuable experience. My Organisation is excellent, and I am fortunate to have amazing colleagues, teammates, and a supportive work environment. I’ve had the opportunity to explore many things and deepen my knowledge. I feel proud and happy to be working alongside such brilliant minds—it’s truly inspiring.</span>
               <ul>
                 <li>
                   <span>June 2024 - Current</span> Associate Software Engineer
@@ -314,50 +308,74 @@
       <div class="container">
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
+
           <div class="work">
-            <img src="images/work-1.png" alt="work 1" />
+            <img src="images/local_store_mgmt_app_logo.png" alt="local store app image" />
             <div class="layer">
-              <h3>Social Media App</h3>
+              <h3>Local Store Management App, C</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
-                cumque libero, perferendis animi quibusdam reiciendis
-                consequatur at debitis?
+                This is a local store management app. It is a Console application built using C language.
               </p>
-              <a href="#"
+              <a href="https://github.com/amoghrp/local_store_C" target="_blank"
                 ><i class="fa-solid fa-arrow-up-right-from-square"></i
               ></a>
             </div>
           </div>
+
           <div class="work">
-            <img src="images/work-2.png" alt="work 2" />
+            <img src="images/used_cars_sales.png" alt="used cars sales image" />
             <div class="layer">
-              <h3>Music App</h3>
+              <h3>Used Cars Sales System, Java</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
-                cumque libero, perferendis animi quibusdam reiciendis
-                consequatur at debitis?
+                This is a java application for used cars sales management. It is built using java , Java Swing & Java AWT.
               </p>
-              <a href="#"
+              <a href="https://github.com/amoghrp/used_cars_sales_java" target="_blank"
                 ><i class="fa-solid fa-arrow-up-right-from-square"></i
               ></a>
             </div>
           </div>
+
           <div class="work">
-            <img src="images/work-3.png" alt="work 3" />
+            <img src="images/yt_video_dld.png" alt="Youtube video downloader logo image" />
             <div class="layer">
-              <h3>Online Shopping App</h3>
+              <h3>Youtube Video Downloader, Python</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
-                cumque libero, perferendis animi quibusdam reiciendis
-                consequatur at debitis?
+                This is a project used to dowload youtube videos to your local system. This app is built using Python and  Python Tkinter.
               </p>
-              <a href="#"
+              <a href="https://github.com/amoghrp/yt_vid_dload" target="_blank"
                 ><i class="fa-solid fa-arrow-up-right-from-square"></i
               ></a>
             </div>
           </div>
+          
+
+          <div class="work">
+            <img src="images/music_player_logo.png" alt="music player logo" />
+            <div class="layer">
+              <h3>Music Player, Html,Css,JS</h3>
+              <p>
+                Built a music player app. Used HTML, CSS, JavaScript for developing this app. It Provides music playing and navigating features.
+              </p>
+              <a href="https://github.com/amoghrp/music_player_wft/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/recipe_app_logo.png" alt="Recipe app logo">
+            <div class="layer">
+              <h3>Recipe Pro Android Mobile App, Java</h3>
+              <p>
+                This is a Recipe app, provides recipes for cooking various dishes. It is an Android Mobile app built using Java.
+              </p>
+              <a href="https://github.com/amoghrp/android_Recipe_app_1" target="_blank" ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+            </div>
+          </div>
+
         </div>
-        <a href="#" class="btn">See More</a>
+        <a href="https://github.com/amoghrp?tab=repositories" target="_blank" class="btn">See More</a>
       </div>
     </div>
 
@@ -370,7 +388,11 @@
             <p>
               <i class="fa-solid fa-paper-plane"></i> amoghrpatil600@gmail.com
             </p>
-            <p><i class="fa-solid fa-phone"></i> 8123705530</p>
+            <p>
+              <a href="tel:8123705530" id="ph_no">
+                <i class="fa-solid fa-phone"></i>8123705530
+              </a>
+            </p>
             <div class="social-icons">
               <a
                 href="https://www.linkedin.com/in/amogh-patil-260255217/"
@@ -432,7 +454,8 @@
       </div>
       <div class="copyright">
         <p>
-          Copyright &copy; Amogh Made with
+          <!-- Copyright &copy;  -->
+          Vibe With Amogh &nbsp;&nbsp;&nbsp; Made with
           <i class="fa-regular fa-heart"></i> by Amogh Patil
         </p>
       </div>
@@ -462,5 +485,6 @@
         sidemenu.style.right = "-200px";
       }
     </script>
+
   </body>
 </html>

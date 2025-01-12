@@ -169,6 +169,36 @@ nav ul li a:hover::after {
 display: block;
 }
 
+.hover-container {
+  position: relative;
+  color: white;
+  border-radius: 5px;
+}
+
+.tooltip-text {
+  visibility: hidden; /* Initially hidden */
+  width: 500px; /* Tooltip width */
+  height: auto;
+  background-color: #262626; /* Background color for the tooltip */
+  color: #fff; /* Text color */
+  text-align: center;
+  padding: 2px;
+  border-radius: 5px;
+  position: absolute; /* Positioned relative to the container */
+  bottom: 110%; /* Position above the container */
+  left: 50%; /* Center the tooltip */
+  transform: translateX(-50%); /* Adjust for centering */
+  opacity: 0; /* Make it invisible */
+  transition: opacity 0s; /* Smooth fade-in effect */
+  border: 1px solid white;
+}
+
+.hover-container:hover .tooltip-text {
+  visibility: visible; /* Make tooltip visible on hover */
+  opacity: 1; /* Fade it in */
+}
+
+
 /* ---------------services */
 #skills{
     padding: 75px 0 0 0;
@@ -323,6 +353,11 @@ display: block;
   font-size: 20px;
 }
 
+#ph_no{
+  text-decoration: none;
+  color: inherit;
+}
+
 .social-icons{
   margin-top: 30px;
 }
@@ -469,6 +504,10 @@ nav .fa-solid{
 
 .copyright{
   font-size: 14px;
+}
+
+.tooltip-text{
+  width: 300px;
 }
 
 }
