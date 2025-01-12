@@ -45,6 +45,7 @@ nav {
 
 .logo {
   border-radius: 100px;
+  height: 48px;
 }
 
 nav ul li {
@@ -77,6 +78,7 @@ nav ul li a::after {
 nav ul li a:hover::after {
   width: 90%;
 }
+
 
 .header-text {
   margin-top: 20%;
