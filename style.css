@@ -69,7 +69,7 @@ nav ul li a::after {
   content: "";
   width: 0%;
   height: 4px;
-  background: #ff004f;
+  background: #e10eecd5;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -142,7 +142,7 @@ nav ul li a:hover::after {
   content: "";
   width: 0;
   height: 3px;
-  background: #ff004f;
+  background: #e10eecd5;
   position: absolute;
   left: 0;
   bottom: -8px;
@@ -249,7 +249,7 @@ display: block;
 } */
 
 .skills-list div:hover{
-    background-color: #ff004f;
+    background-color: #e10eecd5;
     transform: translateY(-15px);
 }
 
@@ -288,7 +288,7 @@ display: block;
 .layer{
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+  background: linear-gradient(rgba(0,0,0,0.6),#e10eecd5);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -311,7 +311,7 @@ display: block;
 
 .layer a{
   margin-top: 20px;
-  color: #ff004f;
+  color: #e10eecd5;
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
@@ -334,14 +334,14 @@ display: block;
   display: block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid #ff004f;
+  border: 1px solid #e10eecd5;
   padding: 14px 50px;
   text-decoration: none;
   color: white;
   transition: background 0.5s;
 }
 .btn:hover{
-  background: #ff004f;
+  background: #e10eecd5;
 }
 /* -------------- contact ---------------------------- */
 
@@ -361,7 +361,7 @@ display: block;
 }
 
 .contact-left p i{
-  color: #ff004f;
+  color: #e10eecd5;
   margin-right: 15px;
   font-size: 20px;
 }
@@ -384,7 +384,7 @@ display: block;
 }
 
 .social-icons a:hover{
-  color: #ff004f;
+  color: #e10eecd5;
   transform: translateY(-5px);
 }
 
@@ -395,7 +395,7 @@ display: block;
   font-size: 18px;
   margin: 40px auto;
   width: fit-content;
-  border: 1px solid #ff004f;
+  border: 1px solid #e10eecd5;
   padding: 14px 50px;
   text-decoration: none;
   color: white;
@@ -403,7 +403,7 @@ display: block;
   cursor: pointer;
 }
 .btn2:hover{
-  background: #ff004f;
+  background: #e10eecd5;
 }
 
 .contact-right form{
@@ -439,7 +439,7 @@ form input, form textarea{
 }
 
 .copyright i{
-  color: #ff004f;
+  color: #e10eecd5;
   font-size: 25px;
 }
 
@@ -466,7 +466,7 @@ nav .fa-solid{
     font-size: 25px;
   }
   nav ul{
-    background: #ff004f;
+    background: #e10eecd5;
     position: fixed;
     top: 0;
     right: -200px;
